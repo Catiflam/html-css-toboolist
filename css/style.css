@@ -3,7 +3,7 @@
     margin: 0 auto;
 }
 main{
-    background-color: gray;
+    background-color:rgba(211, 211, 211,0.1);
 }
 .head{
     width: 1100px;
@@ -21,7 +21,7 @@ h1{
 .button{
     width: 750px;
     background-color: white;
-    border: 2px solid lightgrey;
+    border: 1px solid rgba(211, 211, 211,0.1);
     padding: 15px;
     border-radius: 3px;
     
@@ -38,7 +38,7 @@ h1{
 .body{
     width: 750px;
     background-color: white;
-    border: 2px solid lightgrey;
+    border: 1px solid rgba(211, 211, 211,0.1);
     padding: 15px;
     border-radius: 3px;
 }
@@ -61,6 +61,7 @@ h1{
     width: 30px;
     height: 30px;
     padding: 5px;
+    margin: 5px;
 }
 .task{
     margin-bottom: 20px;
@@ -73,6 +74,7 @@ h1{
     width: 30px;
     height: 30px;
     padding: 5px;
+    margin: 5px;
 
 }
 .space{
@@ -94,4 +96,38 @@ h1{
     width: 30px;
     height: 30px;
     padding: 5px; 
+    margin: 5px;
+}
+.margin{
+    margin-bottom: 20px;
+}
+.mobile{
+    background-color: rgb(226, 147, 43);
+    border-radius: 6px;
+    color: white;
+    font-size: 0.6rem;
+    width: 30px;
+    height: 30px;
+    padding: 5px; 
+    margin: 5px; 
+}
+.web{
+    background-color: rgb(226, 43, 168);
+    border-radius: 6px;
+    color: white;
+    font-size: 0.6rem;
+    width: 30px;
+    height: 30px;
+    padding: 5px; 
+    margin: 5px;
+}
+.sale{
+    background-color: rgb(165, 226, 43);
+    border-radius: 6px;
+    color: white;
+    font-size: 0.6rem;
+    width: 30px;
+    height: 30px;
+    padding: 5px; 
+    margin: 5px;  
 }
