@@ -8,57 +8,78 @@
 </head>
 <body>
     <!-- intestazione prima fascia -->
-    <header class="head">
-        <img src="./img/Logo.png" alt="logo">
-        <h1>Toboolist</h1>
+    <header>
+        <img src="./img/Logo.png" alt="logo" class="logo-img">
+        <h1 class="logo-text">Toboolist</h1>
     </header>
-    <main>
-        <div class="button">
-            <button class="top1">Add task</button>
-            <button class="top2">Add selection</button>
+    <main class="page">
+          <!-- Inserimento bottoni -->
+        <div>
+            <button class="button-top1">Add task</button>
+            <button class="button-top2">Add selection</button>
         </div>
-        <div class="body">
-
-            <section class="task">
+        <div class="page-center">
+             <!-- prima sezione -->
                 <h2> ▼ New task</h2>
-                <span class="check">✓</span>
-                 <p class="new-task">Quarterly Newsletter</p>
-                 <span class="mark">Editorial</span>
-            </section>
-            
-            <section class="second-task">
+                <ul>
+                    <li>
+                        <span class="item check">✓</span>
+                        Quarterly Newsletter
+                        <span class="mark"> Editorial</span>
+                    </li>
+                </ul>
+    
+             <!-- seconda sezione -->
                 <h2> ▼ Today</h2>
-                <span class="check">✓</span>
-                <p class="new-task">Recruiting blog post</p>
-                <span class="mark">Editorial</span>
-                <div class="margin">
-                    <p class="space"><span class="check">✓</span> Mobile app launch</p>
-                    <span class="mark-goal">Q1 goals</span>
-                </div>
-                <div class="margin">
-                    <p class="space"><span class="cross">☓</span> Intervew John H.</p><span class="recruit">Recruiting</span>
-                </div>
-                <div class="margin" >
-                    <p class="space"><span class="check">✓</span> Summit update to mobile storefronts</p><span class="mobile">Mobile</span>
-                </div>
-            </section>
-            <section>
+                <ul>
+                    <li>
+                        <span class="item check">✓</span>
+                        Recruiting blog post 
+                        <span class="mark"> Editorial</span>
+                    </li>
+                    <li>
+                        <span class="item check">✓</span>
+                        Mobile app launch
+                        <span class="mark goals"> Q1 goals</span> 
+                    </li>
+                    <li>
+                        <span class="item cross">☓</span>
+                        Intervew John H.
+                        <span class="mark recruiting"> Recruiting</span> 
+                    </li>
+                    <li>
+                        <span class="item check">✓</span>
+                        Summit update to mobile storefronts
+                        <span class="mark mobile"> Mobile</span> 
+                    </li>
+                </ul>
+                <!-- terza sezione -->
+    
                 <h2> ▼ Upcoming</h2>
-                <div class="margin">
-                    <p> <span class="cross">☓</span> Schedule meeting with Alex</p>
-                </div>
-                <div class="margin">
-                    <p class="space" ><span class="check">✓</span> Homepage refresh</p><span class="web">Website</span>
-                </div>
-                <div class="margin">
-                    <p class="space"> <span class="check">✓</span> Onboard new Sales team members</p><span class="sale">Sales</span>
-                </div>
-                <div class="margin">
-                    <p class="space"><span class="check">✓</span> Review editorial calendar</p><span class="mark">Editorial</span>
-                </div>
-            </section>
-        </div>
-        </main>
+                <ul>
+                    <li>
+                        <span class="item cross">☓</span>
+                        Schedule meeting with Alex
+                        <span class="mark recruiting"> Recruiting</span>
+                    </li>
+                    <li>
+                        <span class="item check">✓</span>
+                        Homepage refresh
+                        <span class="mark web"> Website</span> 
+                    </li>
+                    <li>
+                        <span class="item check">✓</span>
+                        Onboard new Sales team members
+                        <span class="mark sale"> Sales</span> 
+                    </li>
+                    <li>
+                        <span class="item check">✓</span>
+                        Review editorial calendar
+                        <span class="mark"> Editorial</span> 
+                    </li>
+                </ul>
+         </div>
+    </main>
     
 </body>
 </html>
