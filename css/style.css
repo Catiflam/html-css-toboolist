@@ -1,133 +1,118 @@
-*{
-    box-sizing: border-box;
-    margin: 0 auto;
+* {
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 0;
 }
-main{
-    background-color:rgba(211, 211, 211,0.1);
+body {
+	font-family: Arial, sans-serif;
+	background-color: rgba(211, 211, 211, 0.1);
+	color: 333;
 }
-.head{
-    width: 1100px;
-    height: 50px;
-    font-size: 1.2rem;
-    text-align: left;
-    background-color: white;
+header {
+	height: 80px;
+	line-height: 80px;
+	background-color: white;
+	padding: 0 10px;
 }
-h1{
-    display:inline-block;
-    line-height: 20px;
-    vertical-align: 15px;
+.logo-text {
+	display: inline-block;
+}
+.logo-img,
+.logo-text {
+	vertical-align: middle;
+}
+.button {
+	width: 50%;
+	background-color: white;
+	border: 1px solid rgba(211, 211, 211, 0.1);
+	padding: 5px;
+	border-radius: 3px;
+	border: 1px solid transparent;
+}
+.button-top1 {
+	background-color: rgb(0, 166, 255);
+	border-radius: 5px;
+	color: white;
+	border: currentColor;
+	padding: 5px 10px;
+	display: inline-block;
+}
+.button-top2 {
+	border-radius: 5px;
+	border: currentColor;
+	padding: 5px 10px;
+	color: lightslategrey;
+	display: inline-block;
+}
+.page {
+	width: 50%;
+	margin: 50px auto;
+	background-color: white;
+	padding: 20px;
+}
+h2 {
+	margin: 20px 0 15px;
+}
+ul {
+	list-style-type: none;
+}
+li > * {
+	vertical-align: middle;
+	margin-bottom: 5px;
+	line-height: 10px;
+}
+.page-center {
+	width: 70%;
+	background-color: white;
+	border: 1px solid rgba(211, 211, 211, 0.1);
+	padding: 5px;
+	border-radius: 3px;
+	margin: 20px 20px;
+}
+.item.check {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	border-radius: 50%;
+	border: 1px solid green;
+	color: green;
+}
 
+.item.cross {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	border-radius: 50%;
+	border: 1px solid rgb(218, 43, 8);
+	color: rgb(218, 43, 8);
 }
-.button{
-    width: 750px;
-    background-color: white;
-    border: 1px solid rgba(211, 211, 211,0.1);
-    padding: 15px;
-    border-radius: 3px;
-    
+.mark {
+	display: inline-block;
+	padding: 5px 10px;
+	border-radius: 6px;
+	color: white;
+	font-size: 0.6rem;
+	background-color: rgb(10, 124, 232);
 }
-.top1{
-    background-color: rgb(0, 166, 255);
-    border-radius: 5px;
-    color: white;
-}
-.top2{
-    border-radius: 5px;
-    
-}
-.body{
-    width: 750px;
-    background-color: white;
-    border: 1px solid rgba(211, 211, 211,0.1);
-    padding: 15px;
-    border-radius: 3px;
-}
-.check{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: 1px solid green;
-    color: green;
-}
-.new-task{
-    display: inline-block;
-    margin-bottom: 15px;
-}
-.mark{
-    background-color: rgb(0, 145, 255);
-    border-radius: 6px;
-    color: white;
-    font-size: 0.6rem;
-    width: 30px;
-    height: 30px;
-    padding: 5px;
-    margin: 5px;
-}
-.task{
-    margin-bottom: 20px;
-}
-.mark-goal{
-    background-color: blueviolet;
-    border-radius: 6px;
-    color: white;
-    font-size: 0.6rem;
-    width: 30px;
-    height: 30px;
-    padding: 5px;
-    margin: 5px;
 
+.mark.goals {
+	background-color: blueviolet;
 }
-.space{
-    display: inline-block;
-    
+
+.recruiting {
+	background-color: rgb(43, 226, 52);
 }
-.cross{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: 1px solid red;
-    color: red;
+
+.mobile {
+	background-color: rgb(226, 147, 43);
 }
-.recruit{
-    background-color: rgb(43, 226, 52);
-    border-radius: 6px;
-    color: white;
-    font-size: 0.6rem;
-    width: 30px;
-    height: 30px;
-    padding: 5px; 
-    margin: 5px;
+.web {
+	background-color: rgb(226, 43, 168);
 }
-.margin{
-    margin-bottom: 20px;
-}
-.mobile{
-    background-color: rgb(226, 147, 43);
-    border-radius: 6px;
-    color: white;
-    font-size: 0.6rem;
-    width: 30px;
-    height: 30px;
-    padding: 5px; 
-    margin: 5px; 
-}
-.web{
-    background-color: rgb(226, 43, 168);
-    border-radius: 6px;
-    color: white;
-    font-size: 0.6rem;
-    width: 30px;
-    height: 30px;
-    padding: 5px; 
-    margin: 5px;
-}
-.sale{
-    background-color: rgb(165, 226, 43);
-    border-radius: 6px;
-    color: white;
-    font-size: 0.6rem;
-    width: 30px;
-    height: 30px;
-    padding: 5px; 
-    margin: 5px;  
+.mark.sale {
+	background-color: rgb(165, 226, 43);
 }
